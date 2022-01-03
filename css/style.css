@@ -208,13 +208,14 @@ img:active {
 }
 /************************* Media ***********************/
 @media (max-width: 1020px) {
+  /********************** Main **************************/
   body {
     grid-template-columns: 100%;
     grid-template-rows: 100vh 1fr 1fr;
     grid-template-areas:
       "head"
-      "left"
-      "right";
+      "right"
+      "left";
   }
   header {
     padding: 0 2%;
